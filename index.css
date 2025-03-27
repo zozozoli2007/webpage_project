@@ -37,3 +37,9 @@
     color: pink;
     border-radius: 25px;
 }
+body.dark-mode{
+    background-color: black;
+}
+.body.dark-mode{
+    background-color: darkgray;
+}

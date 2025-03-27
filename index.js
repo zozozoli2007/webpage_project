@@ -14,4 +14,4 @@ modeToggle.addEventListener('click', () => {
     } else {
         localStorage.removeItem('theme')
     }
-})
+});
