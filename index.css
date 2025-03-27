@@ -11,9 +11,29 @@
     color: black !important;
     font-size: 30px;
 }
+.team1{
+    margin: 0 0 15px 0;
+}
+.team2{
+    margin: 0 0 15px 0;
+}
 #team{
     margin: 0 0 50px 0;
 }
 #flory{
     text-align: center;
+}
+#isu{
+    text-align: center;
+}
+#nagysas{
+    text-align: center;
+}
+#axy{
+    text-align: center;
+}
+.axy{
+    background-color: purple;
+    color: pink;
+    border-radius: 25px;
 }
