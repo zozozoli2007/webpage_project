@@ -1,0 +1,13 @@
+.h1{
+    color: black !important;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;;
+    font-size: 50px !important;
+    text-align: center;
+}
+#body{
+    background-color: white;
+}
+.h2{
+    color: gold !important;
+    -webkit-text-stroke: 2px darkgoldenrod;
+}
