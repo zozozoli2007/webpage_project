@@ -124,3 +124,13 @@ body{
     background-color: blue;
     color: white;
 }
+.dark-mode .button-row button:hover{
+    background-color: darkblue;
+    color: #ffffff;
+}
+.dark-mode .nagysas{
+    background-color: darkblue;
+}
+.dark-mode .axy{
+    background-color: darkviolet;
+}
