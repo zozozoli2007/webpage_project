@@ -8,6 +8,6 @@
     background-color: white;
 }
 .h2{
-    color: gold !important;
-    -webkit-text-stroke: 2px darkgoldenrod;
+    color: black !important;
+    font-size: 30px;
 }
