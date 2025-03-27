@@ -3,11 +3,35 @@ body{
     color: #000000;
     transition: background-color 0.3s, color 0.3s;
 }
+.title{
+    background-color: lightgray;
+    padding: 0 0 20px 0;
+    margin: 0 0 10px 0;
+    border-radius: 0 0 30px 30px;
+}
 .h1{
     color: black !important;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;;
     font-size: 50px !important;
     text-align: center;
+}
+.button-row{
+    border: #000000 solid 2px;
+    border-radius: 30px;
+    padding: 10px;
+}
+.button-row button{
+    background-color: lightblue;
+    border: unset;
+    border-radius: 25px;
+    font-size: large;
+    padding: 5px;
+    margin: 5px;
+    width: 100%;
+}
+.button-row button:hover{
+    background-color: rgb(88, 179, 209);
+    border: unset;
 }
 #body{
     background-color: white;
