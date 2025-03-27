@@ -1,13 +1,14 @@
 body {
-    background-color: rgb(255, 29, 29);
+    background-color: white !important;
 }
 h1{
     text-align: center;
     background-color: blue;
+    color: white !important;
 }
 
 h3 {
-    background-color: pink;
+    background-color: pink !important;
     text-align: left;
 }
 
@@ -15,5 +16,8 @@ p {
     background-color: black;
     color: white;
     text-align: center;
+}
+.title{
+    padding: 10px 0 10px 0 !important;
 }
 
