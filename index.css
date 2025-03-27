@@ -10,7 +10,6 @@ body{
     border-radius: 0 0 30px 30px;
 }
 .h1{
-    color: black !important;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;;
     font-size: 50px !important;
     text-align: center;
@@ -55,7 +54,6 @@ body{
     text-align: center;
 }
 .h2{
-    color: black !important;
     font-size: 30px;
 }
 .team1{
@@ -91,7 +89,7 @@ body{
 }
 .axy{
     background-color: purple;
-    color: pink;
+    color: pink !important;
     border-radius: 25px;
 }
 .axy h2{
@@ -109,10 +107,20 @@ body{
     padding-left: 40px;
     padding-bottom: 20px;
 }
-body.dark-mode{
-    background-color: black;
-    color: white;
+.dark-mode{
+    background-color: #000000;
+    color: #ffffff;
 }
-body.dark-mode .body{
+.dark-mode .title{
     background-color: darkgray;
+}
+.dark-mode .works,.dark-mode .about{
+    border: #ffffff solid 3px;
+}
+.dark-mode .button-row{
+    border: #ffffff solid 2px;
+}
+.dark-mode .button-row button{
+    background-color: blue;
+    color: white;
 }

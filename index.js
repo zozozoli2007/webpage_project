@@ -1,21 +1,23 @@
-// Get the toggle button and the body element
-const modeToggle = document.getElementById('mode-toggle');
+const toggleButton = document.getElementById("toggle-btn");
 const body = document.body;
+const h2 = document.h2
 
-// Check the saved theme from localStorage (if any) when the page loads
-if (localStorage.getItem('theme') === 'dark') {
-    body.classList.add('dark-mode');
+// Ellenőrizzük, hogy a felhasználó már használta-e a sötét módot
+if (localStorage.getItem("darkMode") === "enabled") {
+    body.classList.add("dark-mode");
+    toggleButton.textContent = "☀️ Light Mode";
 }
 
-// Add event listener to toggle the dark mode
-modeToggle.addEventListener('click', () => {
-    // Toggle the dark-mode class
-    body.classList.toggle('dark-mode');
+// Gombra kattintva váltunk a módok között
+toggleButton.addEventListener("click", () => {
+    body.classList.toggle("dark-mode");
 
-    // Save the theme preference in localStorage
-    if (body.classList.contains('dark-mode')) {
-        localStorage.setItem('theme', 'dark');
+    if (body.classList.contains("dark-mode")) {
+        localStorage.setItem("darkMode", "enabled");
+        toggleButton.textContent = "☀️ Világos mód";
     } else {
-        localStorage.removeItem('theme');
+        localStorage.setItem("darkMode", "disabled");
+        toggleButton.textContent = "🌙 Sötét mód";
     }
 });
+
