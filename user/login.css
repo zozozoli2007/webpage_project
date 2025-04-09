@@ -14,7 +14,6 @@
 .login input{
     width: 45%;
     border: solid black 3px;
-    border-radius: 42069px;
     background-color: unset;
     color: white;
     padding: 5px 0 5px 0;
@@ -35,4 +34,5 @@ body{
     background-color: unset;
     border-radius: 25px;
     padding: 5px 10px 5px 10px;
+    color: white;
 }
