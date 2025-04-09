@@ -1,0 +1,38 @@
+.headline-cont{
+    text-align: center;
+}
+.headline-content{
+    color: white;
+    font-size: 30px;
+}
+.login{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    margin: 5px 0 5px 0;
+}
+.login input{
+    width: 45%;
+    border: solid black 3px;
+    background-color: unset;
+    color: white;
+    padding: 5px 0 5px 0;
+    font-size: 15px;
+}
+body{
+    background-color:rgba(200, 69, 100, 255);
+}
+.body{
+    background-color: rgba(250, 30, 169, 100);
+    margin: 100px 25% 100px 25%;
+    padding: 50px;
+    border-radius: 169px;
+}
+#login{
+    font-size: 20px;
+    border: solid black 2px;
+    background-color: unset;
+    border-radius: 25px;
+    padding: 5px 10px 5px 10px;
+    color: white;
+}
