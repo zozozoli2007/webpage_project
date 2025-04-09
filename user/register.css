@@ -5,13 +5,13 @@
     color: white;
     font-size: 30px;
 }
-.login{
+.register-form{
     text-align: center;
     font-size: 25px;
     color: white;
     margin: 5px 0 5px 0;
 }
-.login input{
+.register input{
     width: 45%;
     border: solid black 3px;
     background-color: unset;
@@ -28,7 +28,7 @@ body{
     padding: 50px;
     border-radius: 169px;
 }
-#login{
+#register{
     font-size: 20px;
     border: solid black 2px;
     background-color: unset;
