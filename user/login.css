@@ -5,3 +5,15 @@
     color: black;
     font-size: 30px;
 }
+.login{
+    text-align: center;
+    font-size: 25px;
+}
+.login input{
+    width: 20%;
+    border: solid black 3px;
+    border-radius: 42069px;
+}
+body{
+    background-color:rgba(200, 69, 100, 255);
+}
