@@ -1,5 +1,5 @@
 const username = null ;
-const name = null ;
+const realName = null ;
 const email = null ;
 const passwrd = null ;
 
@@ -8,5 +8,20 @@ var newName = document.getElementById('name')
 var newEmail = document.getElementById('email')
 
 function register() {
-    if 
+    if (username === newUsername) {
+
+    } else {
+        username = newUsername
+    }
+    
+    if (realName === newName) {
+
+    } else {
+        realName = newName
+    }
+    if (email === newEmail) {
+
+    } else {
+        email = newEmail
+    }
 }
