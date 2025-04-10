@@ -1,6 +1,14 @@
 body{
     text-align: center;
-    background-color:khaki
+    background-image: url(/webpage_project-main/gif/aaa.png);
+     /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 h2{
     color:darkorange;
@@ -8,7 +16,8 @@ h2{
 }
 
 form{
-    background-color: aqua;
+    background-color: #3779a1;
+    background-image: linear-gradient(to right,#1f3256,#2c5b82,);
     /* margin: 150px;
     margin-left: 200px;
     margin-right: 200px */
