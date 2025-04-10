@@ -1,0 +1,23 @@
+body{
+    text-align: center;
+    background-color:khaki
+}
+h2{
+    color:darkorange;
+    margin-bottom: 69px;
+}
+
+form{
+    background-color: aqua;
+    /* margin: 150px;
+    margin-left: 200px;
+    margin-right: 200px */
+    margin-left: 500px;
+    margin-right: 500px;
+}
+input{
+    border-radius: 69px;
+}
+#asd{
+    background-color: teal
+}
